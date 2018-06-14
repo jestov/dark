@@ -1,0 +1,122 @@
+body,html{
+  font-family: 'Oswald',sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #000;
+  position: relative;
+  overflow-x: hidden;
+  color: #fff;
+}
+*{
+  box-sizing: border-box;
+}
+.header{
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/1.jpeg) center no-repeat;
+  background-size: cover;
+}
+.logo{
+  color: #fff;
+  position: fixed;
+  left: 4vh;
+  top:4vh;
+  font-family: 'Oswald',sans-serif;
+  font-weight: 200;
+  font-size: 32px;
+  z-index: 1;
+  padding: 0.1rem 1rem;
+  background: #000;
+}
+#menu{
+  right: 20px;
+  position: fixed;
+  height: 100vh;
+  z-index: 2;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+}
+#menu ul{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+#menu ul li{
+  width: 100%;
+  text-align: right;
+  display: block;
+}
+#menu ul li a{
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  text-align: right;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#menu ul li a span{
+  text-align: right;
+  margin-right: 10px;
+  display: none;
+  top: -15.55px;
+  position: relative;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+}
+#menu ul li a .link{
+  width: 3px;
+  height: 45px;
+  background: rgba(255,255,255,0.4);
+  text-shadow: 10px 0 #000;
+  display: inline-block;
+  position: relative;
+  top: 2.5px;
+}
+#menu ul li a:hover .link,#menu ul li a.active .link{
+  background: #fff;
+  box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.1);
+}
+#menu ul li a:hover span,#menu ul li a.active span{
+  opacity: 1;
+  display: inline-block;
+}
+#center{
+  color: white;
+  background-color: black;
+  min-width: 94vh;
+  min-height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position: relative;
+  z-index: 1;
+}
+h1{
+  font-size: 4.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 4rem;
+  margin: 0;
+}
+h2{
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 8px;
+}
+@media all and (max-width:680px){
+  #menu{
+    right: 0;
+  }
+}
