@@ -24,13 +24,38 @@ body,html{
   color: #fff;
   position: fixed;
   left: 4vh;
-  top:4vh;
+  top: 4vh;
   font-family: 'Oswald',sans-serif;
   font-weight: 200;
   font-size: 32px;
   z-index: 1;
-  padding: 0.1rem 1rem;
   background: #000;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 11px;
+  box-shadow: 0px 0px 11px 8px rgba(15,15,15);
+}
+.main-btn{
+  padding: 12px 35px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.5);
+  background: transparent;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+.main-btn:hover{
+  background: #fff;
+  color: #000;
 }
 #menu{
   right: 20px;
