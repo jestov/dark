@@ -245,6 +245,9 @@ a:hover{
   .logo{
     top: 2vh;
     left: 2vh;
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
   }
   .box{
     justify-content:flex-start;
