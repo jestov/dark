@@ -221,8 +221,53 @@ a{
 a:hover{
   border-color:rgba(255,255,255,0.1);
 }
-@media all and (max-width:680px){
+@media all and (max-width:768px){
   #menu{
-    right: 0;
+    right: 3px;
+  }
+  h1{
+    font-size: 2rem;
+    line-height: 1;
+  }
+  h2{
+    font-size: 0.8rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  p{
+    line-height: 1.5;
+    font-size: 0.8rem;
+  }
+  .header{
+    text-align: center;
+  }
+  .logo{
+    top: 2vh;
+    left: 2vh;
+  }
+  .box{
+    justify-content:flex-start;
+    padding: 30px;
+  }
+  .main-image{
+    width: 100%;
+    height: 40vh;
+  }
+  .dark{
+    min-height: 50vh;
+    flex-direction: column;
+  }
+  .dark.reverse{
+    flex-direction: column-reverse;
+  }
+  .dark .box{
+    width: 100%;
+  }
+  .box{
+    min-height: 50vh;
+  }
+  .element{
+    width: 100%;
   }
 }
