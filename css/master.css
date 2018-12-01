@@ -117,6 +117,8 @@ h1{
   text-transform: uppercase;
   line-height: 4rem;
   margin: 0;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
 }
 h2{
   font-size: 1.2rem;
