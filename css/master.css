@@ -28,14 +28,14 @@ body, html{
   top: 4vh;
   font-family: 'Oswald',sans-serif;
   font-weight: 200;
-  font-size: 32px;
+  font-size: 22px;
   z-index: 1;
   background: #000;
   width: 75px;
   height: 75px;
   border-radius: 50%;
   text-align: center;
-  padding-top: 11px;
+  padding-top: 19px;
   border: 1px solid rgba(255,255,255,0.1);
 }
 .main-btn{
@@ -251,7 +251,7 @@ a:hover{
     left: 2vh;
     width: 60px;
     height: 60px;
-    font-size: 22px;
+    padding-top: 12px;
   }
   .box{
     justify-content:flex-start;
