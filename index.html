@@ -11,27 +11,27 @@
     <link rel="stylesheet" href="css/master.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
   </head>
-  <body data-spy="scroll" data-target="#navbar" data-offset="0">
+  <body>
     <div id="menu">
       <nav id="#nav">
-        <ul class="nav nav-tabs" role="tablist" id="navbar">
-          <li><a href="#home" class="nav-link"><span>Home</span><div class="link"></div></a></li>
-          <li><a href="#about" class="nav-link"><span>About</span><div class="link"></div></a></li>
-          <li><a href="#works" class="nav-link"><span>Works</span><div class="link"></div></a></li>
-          <li><a href="#interests" class="nav-link"><span>Interests</span><div class="link"></div></a></li>
-          <li><a href="#contact" class="nav-link"><span>Contact</span><div class="link"></div></a></li>
+        <ul>
+          <li><a href="#home" class="active"><span>Home</span><div class="link"></div></a></li>
+          <li><a href="#about"><span>About</span><div class="link"></div></a></li>
+          <li><a href="#works"><span>Works</span><div class="link"></div></a></li>
+          <li><a href="#interests"><span>Interests</span><div class="link"></div></a></li>
+          <li><a href="#contact"><span>Contact</span><div class="link"></div></a></li>
         </ul>
       </nav>
     </div>
     <div class="logo">
       Dark
     </div>
-    <div class="header" id="home">
+    <div class="header" id="home" data-target="#home">
       <h1>Discover who are us</h1>
       <h2>Passionate, bright and creative</h2>
       <a href="#about" class="main-btn">Hire Us</a>
     </div>
-    <div class="dark reverse" id="about">
+    <div class="dark reverse" id="about" data-target="#about">
       <div class="box">
         <h3>About</h3>
         <p>
@@ -40,7 +40,7 @@
       </div>
       <img src="img/1.jpeg" alt="" class="main-image">
     </div>
-    <div class="elements" id="works">
+    <div class="elements" id="works" data-target="#works">
       <h3>Works</h3>
       <div class="elements-box">
         <div class="element">
@@ -65,7 +65,7 @@
         </div>
       </div>
     </div>
-    <div class="dark" id="interests">
+    <div class="dark" id="interests" data-target="#interests">
       <img src="img/7.jpeg" alt="" class="main-image">
       <div class="box">
         <h3>Interests</h3>
@@ -74,7 +74,7 @@
         </p>
       </div>
     </div>
-    <footer id="contact">
+    <footer id="contact" data-target="#contact">
       <h3>Contact</h3>
       <a href="#">youremail@domain.com</a>
       <div class="social">
@@ -83,7 +83,6 @@
         <a href="#">Twitter</a>
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/scrollspy.min.js"></script>
   </body>
 </html>
