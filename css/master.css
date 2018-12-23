@@ -6,6 +6,7 @@ body, html{
   position: relative;
   overflow-x: hidden;
   color: #fff;
+  scroll-behavior: smooth;
 }
 *{
   box-sizing: border-box;
