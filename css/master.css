@@ -1,5 +1,5 @@
-body,html{
-  font-family: 'Oswald',sans-serif;
+body, html{
+  font-family: 'Oswald', sans-serif;
   padding: 0;
   margin: 0;
   background: #000;
@@ -81,22 +81,23 @@ body,html{
   font-size: 12px;
   display: inline-block;
   text-align: right;
-  font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
   border:none;
+  vertical-align: middle;
+  line-height: 1.5;
 }
 #menu ul li a span{
   text-align: right;
   margin-right: 10px;
   display: none;
-  top: -15.55px;
+  top: -9px;
   position: relative;
   text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
 }
 #menu ul li a .link{
-  width: 3px;
-  height: 45px;
+  width: 2px;
+  height: 33px;
   background: rgba(255,255,255,0.4);
   text-shadow: 10px 0 #000;
   display: inline-block;
